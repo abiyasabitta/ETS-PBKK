@@ -1,6 +1,8 @@
 # ETS-PBKK
-Evaluasi Tengah Semester Pemrograman Berbasis Kerangka Kerja
+Mid Term Evaluation of Framework Programming
 
-Cara run:
-1. Sesuaikan database pada file .env dengan database yang sudah dibuat
-2. Jalankan command berikut pada terminal `php artisan migrate` kemudian `php artisan serve`
+How to Run:
+1. Customize the .env file to match your database name
+2. Run the command `php artisan migrate` to create the table for the database
+3. Run the command `php artisan db:seed` to insert a few thing to the table
+4. Run the command `php artisan serve` to run the website
